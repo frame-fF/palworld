@@ -30,6 +30,7 @@ services:
       volumes:
          - data:/palworld/
          - ./mods/CreativeMenu_P.pak:/palworld/Pal/Content/Paks/CreativeMenu_P.pak
+         - ./mods/Unlock World Map View_P.pak:/palworld/Pal/Content/Paks/Unlock World Map View_P.pak
 
 volumes:
   data:
