@@ -29,6 +29,7 @@ services:
          ENABLE_FAST_TRAVEL : true
       volumes:
          - data:/palworld/
+         - ./mods:/palworld/Pal/Content/Paks/
 
 volumes:
   data:
