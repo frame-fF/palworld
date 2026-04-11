@@ -26,6 +26,7 @@ services:
          # Game settings
          EXP_RATE: 3.0
          DEATH_PENALTY: "None"
+         ENABLE_FAST_TRAVEL : true
       volumes:
          - data:/palworld/
 
