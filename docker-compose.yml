@@ -29,7 +29,7 @@ services:
          ENABLE_FAST_TRAVEL : true
       volumes:
          - data:/palworld/
-         - ./mods:/palworld/Pal/Content/Paks/
+         - ./mods/CreativeMenu_P.pak:/palworld/Pal/Content/Paks/CreativeMenu_P.pak
 
 volumes:
   data:
