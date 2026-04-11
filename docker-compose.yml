@@ -17,12 +17,15 @@ services:
          MULTITHREADING: true
          REST_API_ENABLED: true
          REST_API_PORT: 8212
-         TZ: "UTC"
+         TZ: "Asia/Bangkok"
          ADMIN_PASSWORD: "password"
          COMMUNITY: false  # Enable this if you want your server to show up in the community servers tab, USE WITH SERVER_PASSWORD!
          SERVER_NAME: "rw_101"
          SERVER_DESCRIPTION: "Roi et"
-         CROSSPLAY_PLATFORMS: "(Steam,Xbox,PS5,Mac)"
+         CROSSPLAY_PLATFORMS: "(Steam)"
+         # Game settings
+         EXP_RATE: 3.0
+         DEATH_PENALTY: "None"
       volumes:
          - data:/palworld/
 
