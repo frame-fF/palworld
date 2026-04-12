@@ -27,6 +27,9 @@ services:
          EXP_RATE: 3.0
          DEATH_PENALTY: "None"
          ENABLE_FAST_TRAVEL : true
+         PAL_SPAWN_NUM_RATE: 3.0
+         ENABLE_INVADER_ENEMY: false
+         
       volumes:
          - data:/palworld/
          - ./mods/CreativeMenu_P.pak:/palworld/Pal/Content/Paks/CreativeMenu_P.pak
