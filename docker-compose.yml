@@ -35,7 +35,7 @@ services:
          - ./mods/CreativeMenu_P.pak:/palworld/Pal/Content/Paks/~mods/CreativeMenu_P.pak
          - ./mods/Unlock World Map View_P.pak:/palworld/Pal/Content/Paks/~mods/Unlock World Map View_P.pak
          - ./mods/Xyro Fast And Better Breed Farm_P.pak:/palworld/Pal/Content/Paks/~mods/Xyro Fast And Better Breed Farm_P.pak
-
+         - ./mods/Gantz79 Modular Mod_P.pak:/palworld/Pal/Content/Paks/~mods/Gantz79 Modular Mod_P.pak
 
 volumes:
   data:
