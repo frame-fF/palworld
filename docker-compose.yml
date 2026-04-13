@@ -29,6 +29,8 @@ services:
          ENABLE_FAST_TRAVEL : true
          PAL_SPAWN_NUM_RATE: 1.0
          ENABLE_INVADER_ENEMY: false
+         ALLOW_GLOBAL_PALBOX_EXPORT: true
+         ALLOW_GLOBAL_PALBOX_IMPORT: true
          
       volumes:
          - data:/palworld/
