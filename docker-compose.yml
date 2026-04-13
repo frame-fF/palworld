@@ -24,10 +24,10 @@ services:
          SERVER_DESCRIPTION: "Roi et"
          CROSSPLAY_PLATFORMS: "(Steam)"
          # Game settings
-         EXP_RATE: 3.0
+         EXP_RATE: 5.0
          DEATH_PENALTY: "None"
          ENABLE_FAST_TRAVEL : true
-         PAL_SPAWN_NUM_RATE: 3.0
+         PAL_SPAWN_NUM_RATE: 1.0
          ENABLE_INVADER_ENEMY: false
          
       volumes:
