@@ -34,6 +34,9 @@ services:
          - data:/palworld/
          - ./mods/CreativeMenu_P.pak:/palworld/Pal/Content/Paks/CreativeMenu_P.pak
          - ./mods/Unlock World Map View_P.pak:/palworld/Pal/Content/Paks/Unlock World Map View_P.pak
+         - ./mods/Instant Hatching Eggs_P.pak:/palworld/Pal/Content/Paks/Instant Hatching Eggs_P.pak
+         - ./mods/Xyro Fast And Better Breed Farm_P.pak:/palworld/Pal/Content/Paks/Xyro Fast And Better Breed Farm_P.pak
+
 
 volumes:
   data:
